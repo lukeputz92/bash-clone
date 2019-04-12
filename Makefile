@@ -1,22 +1,9 @@
-#
-#
-# Sample Makefile for Assignment 1
-#
-
 CFLAGS = -g -Wall -O2
 CC = gcc
 
 PROGRAM = mybash
 CFILES = parser.c mybash.c
 HFILE = parser.h
-
-
-##################################################
-#
-# You shouldn't need to change anything else
-#
-##################################################
-
 
 # compute the OFILES
 OFILES = ${CFILES:.c=.o}
@@ -29,9 +16,6 @@ OBJECTS = ${OFILES}
 ${PROGRAM} : ${OBJECTS}
 	${CC} ${CFLAGS} ${OBJECTS} -o ${PROGRAM}
 
-#
-# File dependencies
-#
 ${OFILES}: ${HFILE} parser.h
 
 clean:
