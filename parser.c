@@ -1,17 +1,3 @@
-/*
- * Headstart for Assignment 1
- * CS 4420/5420
- * 
- * Student Name: Luke Putz, Caleb Myers
- * 
-
- * 
- * 
- * 
- * 
- */
-
-
 #include <stdio.h>
 #include <string.h> /* for strdup */
 #include "parser.h"
