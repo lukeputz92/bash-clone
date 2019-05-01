@@ -1,16 +1,3 @@
-/*
- * Headstart for Assignment 1
- * CS 4420/5420
- * 
- * Student Name: Luke Putz
- * 
- * Student Name: Caleb Myers
- * 
- * 
- * 
- * 
- */
-
 /* the states */
 #define COMMAND 1
 #define ARG 2
